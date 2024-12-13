@@ -1,0 +1,14 @@
+num1 = float(input("enter first number :"))
+num2 = float(input("enter second number:"))
+num3 = float(input("enter third number:"))
+if num1 >= num2 and num1 >= num3:
+  print("largest number is:",num1)
+elif num2 >= num3:
+  print("largest number is:",num2)
+else:
+  print("largest number is:",num3)
+     
+enter first number :6
+enter second number:9
+enter third number:2
+largest number is: 9.0
