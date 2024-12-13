@@ -1,0 +1,6 @@
+num = [10,12,15,20,25]
+print("maximum:",max(num))
+print("minimum:",min(num))
+     
+maximum: 25
+minimum: 10
