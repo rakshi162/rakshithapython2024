@@ -1,0 +1,9 @@
+import math
+angle = float(input("enter an angle in degrees:"))
+radians = math.radians(angle)
+print("sine of angle:",math.sin(radians))
+print("cosine of angle:",math.cos(radians))
+     
+enter an angle in degrees:90
+sine of angle: 1.0
+cosine of angle: 6.123233995736766e-17
