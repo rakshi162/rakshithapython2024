@@ -1,0 +1,13 @@
+def fibonacci(n):
+  sequence=[]
+  a,b = 0,1
+  for i in range(n):
+    sequence.append(a)
+    a,b = b,a+b
+  return sequence
+
+terms = int(input("enter the number of terms:"))
+print("fibonacci sequece:",fibonacci(terms))
+     
+enter the number of terms:10
+fibonacci sequece: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
