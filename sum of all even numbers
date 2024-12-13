@@ -1,0 +1,11 @@
+a = int(input("enter the start of the range:"))
+b = int(input("enter the end of the range:"))
+sum = 0
+for i in range(a,b + 1):
+  if i % 2 == 0:
+    sum += i
+print("the sum of even numbers:",sum)
+     
+enter the start of the range:6
+enter the end of the range:15
+the sum of even numbers: 50
