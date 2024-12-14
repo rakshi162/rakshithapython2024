@@ -1,0 +1,5 @@
+#readlines() functions
+file = open("/content/rakshithahs.txt","r")
+lines = file.readlines()
+print(lines)
+file.close()
