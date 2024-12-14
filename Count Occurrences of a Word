@@ -1,0 +1,5 @@
+count = 0
+with open('data.txt', 'r') as file:
+    for line in file:
+        count += line.count('Python')  
+print(f"The word 'Python' appears {count} times in data.txt.")
