@@ -1,0 +1,9 @@
+import os
+
+file_path = 'example.txt'
+
+if os.path.exists(file_path):
+    file = open(file_path, 'r')
+    print("File opened successfully!")
+else:
+    print("File does not exist.")
