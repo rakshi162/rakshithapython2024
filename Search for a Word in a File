@@ -1,0 +1,10 @@
+file_path = "/content/rakshithahs.txt" 
+search_word = 'like'
+with open(file_path, 'r') as file:
+    found = False  
+    for line_number, line in enumerate(file, start=1):
+        if search_word in line: 
+            print(f"Line {line_number}: {line.strip()}") 
+            found = True
+    if not found:
+        print(f"The word '{search_word}' was not found in the file.")
