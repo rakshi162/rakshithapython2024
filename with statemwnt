@@ -1,0 +1,4 @@
+#with statement
+with open("/content/rakshithahs.txt","r") as file:
+  content = file.read()
+  print(content)
