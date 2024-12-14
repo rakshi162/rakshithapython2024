@@ -1,0 +1,5 @@
+with open('data.txt', 'r') as data_file, open('numbers.txt', 'r') as numbers_file, open('merged.txt', 'w') as merged_file:
+    merged_file.write(data_file.read())
+    merged_file.write(numbers_file.read())
+
+print("Contents of data.txt and numbers.txt have been merged into merged.txt")
