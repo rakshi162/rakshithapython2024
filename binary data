@@ -1,0 +1,4 @@
+#file handling modes
+#binary data
+with open("/content/baby cow.jpg","rb") as file:
+  data = file.read()
