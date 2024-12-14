@@ -1,0 +1,4 @@
+#writing a file
+file = open("/content/rakshithahs.txt","w")
+file.write("i like programming!\n")
+file.close()
