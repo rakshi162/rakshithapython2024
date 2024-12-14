@@ -1,0 +1,7 @@
+#finally block
+try:
+  file = open("example.txt","r")
+except FileNotFoundError:
+  print("file not found")
+finally:
+  print("executing finally block")
