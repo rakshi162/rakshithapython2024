@@ -1,0 +1,4 @@
+#appending a file
+file = open("/content/rakshithahs.txt","a")
+file.write("i'm in cnr lab!\n")
+file.close()
