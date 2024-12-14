@@ -1,0 +1,6 @@
+#modes 
+#reading mode
+file = open("/content/rakshithahs.txt","r")
+content = file.read()
+print(content)
+file.close()
