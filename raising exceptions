@@ -1,0 +1,9 @@
+#raising exceptions
+def check_age(age):
+  if age < 18:
+    raise ValueError("age must be 18 or older")
+  return True 
+try:
+  check_age(15)
+except ValueError as e:
+  print(e)
