@@ -1,0 +1,7 @@
+with open('/content/destination_file.txt', 'r') as file:
+    content = file.read()
+content = content.replace('lab', '')
+with open('/content/destination_file.txt', 'w') as file:
+    file.write(content)
+
+print("The word 'lab' has been removed from data.txt.")
