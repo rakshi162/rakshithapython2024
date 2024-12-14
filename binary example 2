@@ -1,0 +1,4 @@
+#file handling modes
+#binary data
+with open("/content/beauty.jpg","ab") as file:
+ file.write(b"some_binary_data")
