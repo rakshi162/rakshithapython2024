@@ -1,0 +1,2 @@
+#creating a file
+file = open("/content/rakshithahs.txt","r")
