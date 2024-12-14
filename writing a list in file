@@ -1,0 +1,4 @@
+numbers = [1, 2, 3, 4, 5]
+with open('/content/rakshithahs.txt', 'w') as file:
+    for number in numbers:
+        file.write(f"{number}\n") 
