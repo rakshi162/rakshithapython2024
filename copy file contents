@@ -1,0 +1,5 @@
+with open('/content/rakshithahs.txt', 'r') as source_file:
+    content = source_file.read()
+
+with open('destination_file.txt', 'w') as destination_file:
+    destination_file.write(content)
